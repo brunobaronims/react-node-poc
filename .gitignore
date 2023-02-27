@@ -40,3 +40,9 @@ Thumbs.db
 
 # Next.js
 .next
+
+# Env
+.env
+
+# Storybook
+stories
