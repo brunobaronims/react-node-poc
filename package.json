@@ -7,7 +7,8 @@
     "backend:dev": "nx run backend:serve",
     "docker:env": "docker compose --file docker/docker-compose.yaml --env-file .env up -d",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "migration:dev": "prisma migrate dev"
   },
   "private": true,
   "devDependencies": {
