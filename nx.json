@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "next-node-poc",
+  "npmScope": "react-node-poc",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/nx-cloud",
@@ -52,12 +52,6 @@
         "style": "styled-components"
       },
       "library": {
-        "style": "styled-components",
-        "linter": "eslint"
-      }
-    },
-    "@nrwl/next": {
-      "application": {
         "style": "styled-components",
         "linter": "eslint"
       }

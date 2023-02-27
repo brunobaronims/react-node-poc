@@ -1,10 +1,11 @@
 {
-  "name": "next-node-poc",
+  "name": "react-node-poc",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "frontend:dev": "nx run frontend:serve",
     "backend:dev": "nx run backend:serve",
+    "docker:env": "docker compose --file docker/docker-compose.yaml --env-file .env up -d",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
